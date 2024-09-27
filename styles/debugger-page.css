@@ -1,0 +1,129 @@
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #fff7cc, #ffe680);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/* Options-Container */
+.options-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    *{
+        margin: 5px;
+    }
+}
+
+/* Table Structure */
+table {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff9e6;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 100%;
+    max-height: 500px;
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+/* Log Table Headers */
+.log-table-header th, .table-header th {
+    position: sticky;
+    top: 0; /* This is necessary for sticky positioning */
+    z-index: 1; /* Ensures headers stay above content when scrolling */
+    text-align: center;
+    width: 1%;
+    background-color: #ffdd57;
+    color: #333;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 3px solid #ffd700;
+}
+
+/* Log Table Rows */
+.log-table-body tr, .table-body-row {
+    background-color: #fff9e6;
+    transition: background-color 0.3s ease;
+}
+
+.log-table-body tr:hover, .table-body-row:hover {
+    background-color: #ffec99;
+}
+
+.log-table-body td, .table-body-row td {
+    padding: 12px;
+    color: #555;
+    border-bottom: 1.5px solid #ffd27f;
+}
+
+.log-table-col-main:hover{
+    background-color: aquamarine;
+    transition: background-color 0.4s ease;
+    cursor: pointer;
+}
+
+/* API Response Box */
+.api-response-box{
+    text-align: center;
+    background-color: #fff5cc;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    
+    ol, ul{
+        margin: 0;
+        padding: 5px;
+    }
+}
+
+/* Flex alignment for log-table and description box */
+.log-table-container {
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+/* GPT model select */
+#gpt-model-select {
+    background-color: #ff6b6b;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* GPT provider */
+#gpt-provider {
+    background-color: #24163a;
+    border-radius: 8px;
+    justify-content: center;
+    display: inline-flex;
+    padding: 8px;
+    width: 160px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: white;
+}
+
+/* Logout Button */
+.logout-button{
+    background-color: #760339;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    width: 160px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: white;
+}

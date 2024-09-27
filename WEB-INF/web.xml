@@ -1,0 +1,45 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- Define the security constraints -->
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Protected Area</web-resource-name>
+            <url-pattern>/OpenAI/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+            <role-name>user</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <!-- Define login configuration for JAAS -->
+    <login-config>
+        <auth-method>BASIC</auth-method>  <!-- Or use FORM for Form Auth -->
+        <realm-name>OpenAILoginModule</realm-name>      <!-- This matches appName in server.xml -->
+    </login-config>
+
+    <!-- Optional: Define form-based login -->
+    <!-- <form-login-config>
+        <form-login-page>/login.jsp</form-login-page>
+        <form-error-page>/login-error.jsp</form-error-page>
+    </form-login-config> -->
+
+    <!-- Define the security roles -->
+    <security-role>
+        <role-name>admin</role-name>
+    </security-role>
+    <security-role>
+        <role-name>user</role-name>
+    </security-role>
+
+    <!-- Custom error page for 404 (not found) -->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/not-found</location> <!-- Points to the NotFoundServlet -->
+    </error-page>
+
+</web-app>

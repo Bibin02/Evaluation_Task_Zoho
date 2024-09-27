@@ -1,0 +1,3482 @@
+{
+  "Events": {
+    "Event": [
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 36199,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            8776,
+            133716267115683790,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "641ac6c6-96fd-436c-a3d6-1a65ba3c7662",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x2248&#13;&#10;Faulting application start time: 0x0x1DB0E3C8A1F1FD4&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 641ac6c6-96fd-436c-a3d6-1a65ba3c7662&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50822,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NMPJ99VJBWV-Microsoft.YourPhone",
+            "{7b6144fb-d06e-43e9-af5e-7e70cc279c59}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50801,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NMPJ99VJBWV-Microsoft.YourPhone",
+            "{7b6144fb-d06e-43e9-af5e-7e70cc279c59}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50777,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NMPJ99VJBWV-Microsoft.YourPhone",
+            "{7b6144fb-d06e-43e9-af5e-7e70cc279c59}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50761,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NMPJ99VJBWV-Microsoft.YourPhone",
+            "{7b6144fb-d06e-43e9-af5e-7e70cc279c59}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50733,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NMPJ99VJBWV-Microsoft.YourPhone",
+            "{7b6144fb-d06e-43e9-af5e-7e70cc279c59}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50708,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9WZDNCRFJ3PT-MICROSOFT.ZUNEMUSIC",
+            "{b319b969-e1a0-4905-94f6-ef925e873305}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRFJ3PT-MICROSOFT.ZUNEMUSIC.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50706,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NVBXD9B5CTJ-AD2F1837.BOAudioControl",
+            "{b018e683-a25c-43cc-b075-cd9b585bac86}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NVBXD9B5CTJ-AD2F1837.BOAudioControl.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50704,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9PLFNLNT3G5G-AppUp.IntelGraphicsExperience",
+            "{dede00cb-c10f-4370-b845-69f8f3f3f139}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9PLFNLNT3G5G-AppUp.IntelGraphicsExperience.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50701,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NMPJ99VJBWV-Microsoft.YourPhone",
+            "{7b6144fb-d06e-43e9-af5e-7e70cc279c59}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50684,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9PLFNLNT3G5G-AppUp.IntelGraphicsExperience",
+            "{dede00cb-c10f-4370-b845-69f8f3f3f139}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9PLFNLNT3G5G-AppUp.IntelGraphicsExperience.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50642,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9WZDNCRFJ3PT-MICROSOFT.ZUNEMUSIC",
+            "{b319b969-e1a0-4905-94f6-ef925e873305}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRFJ3PT-MICROSOFT.ZUNEMUSIC.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50635,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NVBXD9B5CTJ-AD2F1837.BOAudioControl",
+            "{b018e683-a25c-43cc-b075-cd9b585bac86}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NVBXD9B5CTJ-AD2F1837.BOAudioControl.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 35940,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            7932,
+            133715435349816660,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "a1e44766-9862-444f-987d-bc25c35d8ad9",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x1EFC&#13;&#10;Faulting application start time: 0x0x1DB0D7AE1033556&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: a1e44766-9862-444f-987d-bc25c35d8ad9&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 50581,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NMPJ99VJBWV-Microsoft.YourPhone",
+            "{7b6144fb-d06e-43e9-af5e-7e70cc279c59}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 34923,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            9312,
+            133713718224312690,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "f5a6b66d-1845-4575-b0c1-9da1d930ee26",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x2460&#13;&#10;Faulting application start time: 0x0x1DB0BEB145B596A&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: f5a6b66d-1845-4575-b0c1-9da1d930ee26&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 34914,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            8228,
+            133713706389042960,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "de26e42e-5bd6-46f5-94eb-71ea7236c532",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x2024&#13;&#10;Faulting application start time: 0x0x1DB0BE852EB7716&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: de26e42e-5bd6-46f5-94eb-71ea7236c532&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10010,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 50136,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "{8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19}"
+        },
+        "RenderingInfo": {
+          "Message": "The server {8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19} did not register with DCOM within the required timeout.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Provider": "Microsoft-Windows-DistributedCOM",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 34726,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            8640,
+            133712826161578260,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "3aeeb199-20f1-4d2d-84d6-1effa0bc2516",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x21C0&#13;&#10;Faulting application start time: 0x0x1DB0B1B6146410F&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 3aeeb199-20f1-4d2d-84d6-1effa0bc2516&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 34594,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            8820,
+            133711976115825400,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "8ca3b276-0d21-4cb1-b02a-87474c116c61",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x2274&#13;&#10;Faulting application start time: 0x0x1DB0A5576996AFF&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 8ca3b276-0d21-4cb1-b02a-87474c116c61&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 49863,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NKSQGP7F2NH-5319275A.WhatsAppDesktop",
+            "{3f5fa252-a966-4898-a3ba-d5e7627092de}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NKSQGP7F2NH-5319275A.WhatsAppDesktop.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10010,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 49844,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "{8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19}"
+        },
+        "RenderingInfo": {
+          "Message": "The server {8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19} did not register with DCOM within the required timeout.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Provider": "Microsoft-Windows-DistributedCOM",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 49830,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9MSSGKG348SP-MicrosoftWindows.Client.WebExperience",
+            "{344d9670-2bdd-4e73-8c96-ed79487a55e6}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9MSSGKG348SP-MicrosoftWindows.Client.WebExperience.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 34446,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            8420,
+            133711102177293780,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "4206bdf1-a2cd-4a69-a6d9-172034fbed41",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x20E4&#13;&#10;Faulting application start time: 0x0x1DB0989FBCDB5C9&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 4206bdf1-a2cd-4a69-a6d9-172034fbed41&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10010,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 49348,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "{8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19}"
+        },
+        "RenderingInfo": {
+          "Message": "The server {8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19} did not register with DCOM within the required timeout.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Provider": "Microsoft-Windows-DistributedCOM",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 49346,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9MSSGKG348SP-MicrosoftWindows.Client.WebExperience",
+            "{153c2f4c-41db-47d2-9bd9-b66ce930143a}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9MSSGKG348SP-MicrosoftWindows.Client.WebExperience.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 48952,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2149842966,
+            "Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.419.1.0) - Current Channel (Broad)",
+            "{ff9d04d5-8ed8-4fe3-a004-d5424a78dc15}",
+            200,
+            "{7971f918-a847-4430-9279-4a52d1efe18d}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80240016: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.419.1.0) - Current Channel (Broad).",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 13,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 48949,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "",
+          "Binary": "0000C00001000000000000000D0005C0000000000000000000000000000000000000000000000000809698001300FFFF9300FFFF7300A608A30A102813002309630003005300CB3D7300A908A30AE12713006105630005005300FFFF7300EF1DA30AFD621300500563000100530095137300370BA30A513213004705630005005300FFFF73007D0CA30A5042130061056300040053006D447300B50BA30A173113009805630007005300FFFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "RenderingInfo": {
+          "Message": ": The embedded controller (EC) did not respond within the specified timeout period. This may indicate that there is an error in the EC hardware or firmware or that the BIOS is accessing the EC incorrectly. You should check with your computer manufacturer for an upgraded BIOS. In some situations, this error may cause the computer to function incorrectly.",
+          "Level": "Error",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 7000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 48781,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "Windows Camera Frame Server Monitor",
+            "%%1053"
+          ],
+          "Binary": "4600720061006D0065005300650072007600650072004D006F006E00690074006F0072000000"
+        },
+        "RenderingInfo": {
+          "Message": "The Windows Camera Frame Server Monitor service failed to start due to the following error: &#13;&#10;The service did not respond to the start or control request in a timely fashion.",
+          "Level": "Error",
+          "Provider": "Microsoft-Windows-Service Control Manager",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 7009,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 48780,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            30000,
+            "Windows Camera Frame Server Monitor"
+          ],
+          "Binary": "4600720061006D0065005300650072007600650072004D006F006E00690074006F0072000000"
+        },
+        "RenderingInfo": {
+          "Message": "A timeout was reached (30000 milliseconds) while waiting for the Windows Camera Frame Server Monitor service to connect.",
+          "Level": "Error",
+          "Provider": "Microsoft-Windows-Service Control Manager",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 48708,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9PLFNLNT3G5G-AppUp.IntelGraphicsExperience",
+            "{dede00cb-c10f-4370-b845-69f8f3f3f139}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9PLFNLNT3G5G-AppUp.IntelGraphicsExperience.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 33858,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            8624,
+            133709386383212960,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "6d42f74a-c3b7-41da-9a59-67d9a93e13e6",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x21B0&#13;&#10;Faulting application start time: 0x0x1DB07FA7E81C19C&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 6d42f74a-c3b7-41da-9a59-67d9a93e13e6&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 8193,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 33725,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "CoCreateInstance",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343933302D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333335362D205449443A202030303031363437322D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service error: Unexpected error calling routine CoCreateInstance.  hr = 0x8007045b, A system shutdown is in progress.&#13;&#10;.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 13,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 33724,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "{4e14fba2-2e22-11d1-9964-00c04fbbb345}",
+            "CEventSystem",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343932332D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333335362D205449443A202030303031363437322D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service information: The COM Server with CLSID {4e14fba2-2e22-11d1-9964-00c04fbbb345} and name CEventSystem cannot be started. [0x8007045b, A system shutdown is in progress.&#13;&#10;]",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 8193,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 33723,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "CoCreateInstance",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343933302D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333335362D205449443A202030303031363437322D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service error: Unexpected error calling routine CoCreateInstance.  hr = 0x8007045b, A system shutdown is in progress.&#13;&#10;.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 13,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 33722,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "{4e14fba2-2e22-11d1-9964-00c04fbbb345}",
+            "CEventSystem",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343932332D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333335362D205449443A202030303031363437322D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service information: The COM Server with CLSID {4e14fba2-2e22-11d1-9964-00c04fbbb345} and name CEventSystem cannot be started. [0x8007045b, A system shutdown is in progress.&#13;&#10;]",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 47960,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NKSQGP7F2NH-5319275A.WhatsAppDesktop",
+            "{671f0715-5416-415c-ad04-10887bd298c8}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NKSQGP7F2NH-5319275A.WhatsAppDesktop.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 47918,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NKSQGP7F2NH-5319275A.WhatsAppDesktop",
+            "{671f0715-5416-415c-ad04-10887bd298c8}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NKSQGP7F2NH-5319275A.WhatsAppDesktop.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 7031,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 47906,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "HP App Helper HSA Service",
+            1,
+            5000,
+            1,
+            "Restart the service"
+          ],
+          "Binary": "48005000410070007000480065006C007000650072004300610070000000"
+        },
+        "RenderingInfo": {
+          "Message": "The HP App Helper HSA Service service terminated unexpectedly. It has done this 1 time(s). The following corrective action will be taken in 5000 milliseconds: Restart the service.",
+          "Level": "Error",
+          "Provider": "Microsoft-Windows-Service Control Manager",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 7023,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 47905,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "HP App Helper HSA Service",
+            "%%1"
+          ],
+          "Binary": "48005000410070007000480065006C007000650072004300610070000000"
+        },
+        "RenderingInfo": {
+          "Message": "The HP App Helper HSA Service service terminated with the following error: &#13;&#10;Incorrect function.",
+          "Level": "Error",
+          "Provider": "Microsoft-Windows-Service Control Manager",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10010,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 47858,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "MicrosoftWindows.Client.CBS_1000.22700.1034.0_x64__cw5n1h2txyewy!WindowsBackup.AppX0rebzwn6am0h21d99kr6vpzwcvm6rap7.mca"
+        },
+        "RenderingInfo": {
+          "Message": "The server MicrosoftWindows.Client.CBS_1000.22700.1034.0_x64__cw5n1h2txyewy!WindowsBackup.AppX0rebzwn6am0h21d99kr6vpzwcvm6rap7.mca did not register with DCOM within the required timeout.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Provider": "Microsoft-Windows-DistributedCOM",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10010,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 47857,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "MicrosoftWindows.Client.CBS_1000.22700.1034.0_x64__cw5n1h2txyewy!WebExperienceHost.AppXtxeqzv5qynpmss219yp8y0zwb6g7a52b.mca"
+        },
+        "RenderingInfo": {
+          "Message": "The server MicrosoftWindows.Client.CBS_1000.22700.1034.0_x64__cw5n1h2txyewy!WebExperienceHost.AppXtxeqzv5qynpmss219yp8y0zwb6g7a52b.mca did not register with DCOM within the required timeout.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Provider": "Microsoft-Windows-DistributedCOM",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 47533,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NMPJ99VJBWV-Microsoft.YourPhone",
+            "{c217798a-cbde-4664-9187-c8f233f68911}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 47500,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NMPJ99VJBWV-Microsoft.YourPhone",
+            "{c217798a-cbde-4664-9187-c8f233f68911}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 8193,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 32911,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "CoCreateInstance",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343933302D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333334342D205449443A202030303031313336342D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service error: Unexpected error calling routine CoCreateInstance.  hr = 0x8007045b, A system shutdown is in progress.&#13;&#10;.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 13,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 32910,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "{4e14fba2-2e22-11d1-9964-00c04fbbb345}",
+            "CEventSystem",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343932332D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333334342D205449443A202030303031313336342D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service information: The COM Server with CLSID {4e14fba2-2e22-11d1-9964-00c04fbbb345} and name CEventSystem cannot be started. [0x8007045b, A system shutdown is in progress.&#13;&#10;]",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 13,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 31905,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "{4e14fba2-2e22-11d1-9964-00c04fbbb345}",
+            "CEventSystem",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343932332D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333334342D205449443A202030303031333835322D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service information: The COM Server with CLSID {4e14fba2-2e22-11d1-9964-00c04fbbb345} and name CEventSystem cannot be started. [0x8007045b, A system shutdown is in progress.&#13;&#10;]",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 8193,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 31903,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "CoCreateInstance",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343933302D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333334342D205449443A202030303031333835322D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service error: Unexpected error calling routine CoCreateInstance.  hr = 0x8007045b, A system shutdown is in progress.&#13;&#10;.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 13,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 31902,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "{4e14fba2-2e22-11d1-9964-00c04fbbb345}",
+            "CEventSystem",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343932332D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333334342D205449443A202030303031333835322D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service information: The COM Server with CLSID {4e14fba2-2e22-11d1-9964-00c04fbbb345} and name CEventSystem cannot be started. [0x8007045b, A system shutdown is in progress.&#13;&#10;]",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 46493,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NKSQGP7F2NH-5319275A.WhatsAppDesktop",
+            "{c9aa4ceb-a38a-4ad1-9275-891980f91687}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NKSQGP7F2NH-5319275A.WhatsAppDesktop.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10010,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 46473,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "{8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19}"
+        },
+        "RenderingInfo": {
+          "Message": "The server {8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19} did not register with DCOM within the required timeout.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Provider": "Microsoft-Windows-DistributedCOM",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10010,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 46431,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "{283EDD52-69B2-473D-BEB6-2C0B4C01FD73}"
+        },
+        "RenderingInfo": {
+          "Message": "The server {283EDD52-69B2-473D-BEB6-2C0B4C01FD73} did not register with DCOM within the required timeout.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Provider": "Microsoft-Windows-DistributedCOM",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 7000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 46426,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "Windows Camera Frame Server Monitor",
+            "%%1053"
+          ],
+          "Binary": "4600720061006D0065005300650072007600650072004D006F006E00690074006F0072000000"
+        },
+        "RenderingInfo": {
+          "Message": "The Windows Camera Frame Server Monitor service failed to start due to the following error: &#13;&#10;The service did not respond to the start or control request in a timely fashion.",
+          "Level": "Error",
+          "Provider": "Microsoft-Windows-Service Control Manager",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 7009,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 46425,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            30000,
+            "Windows Camera Frame Server Monitor"
+          ],
+          "Binary": "4600720061006D0065005300650072007600650072004D006F006E00690074006F0072000000"
+        },
+        "RenderingInfo": {
+          "Message": "A timeout was reached (30000 milliseconds) while waiting for the Windows Camera Frame Server Monitor service to connect.",
+          "Level": "Error",
+          "Provider": "Microsoft-Windows-Service Control Manager",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10010,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 46414,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "{69B7FE84-6361-4423-B948-1D64820B1E96}"
+        },
+        "RenderingInfo": {
+          "Message": "The server {69B7FE84-6361-4423-B948-1D64820B1E96} did not register with DCOM within the required timeout.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Provider": "Microsoft-Windows-DistributedCOM",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 46413,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NKSQGP7F2NH-5319275A.WhatsAppDesktop",
+            "{c9aa4ceb-a38a-4ad1-9275-891980f91687}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NKSQGP7F2NH-5319275A.WhatsAppDesktop.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 46382,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9MSSGKG348SP-MicrosoftWindows.Client.WebExperience",
+            "{1b432758-ebf4-41b2-a419-b1dfce8931a4}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9MSSGKG348SP-MicrosoftWindows.Client.WebExperience.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 8193,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 31683,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "CoCreateInstance",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343933302D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333334382D205449443A202030303030313939362D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service error: Unexpected error calling routine CoCreateInstance.  hr = 0x8007045b, A system shutdown is in progress.&#13;&#10;.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 13,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 31682,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "{4e14fba2-2e22-11d1-9964-00c04fbbb345}",
+            "CEventSystem",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343932332D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333334382D205449443A202030303030313939362D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service information: The COM Server with CLSID {4e14fba2-2e22-11d1-9964-00c04fbbb345} and name CEventSystem cannot be started. [0x8007045b, A system shutdown is in progress.&#13;&#10;]",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10010,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 46040,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "{338B40F9-9D68-4B53-A793-6B9AA0C5F63B}"
+        },
+        "RenderingInfo": {
+          "Message": "The server {338B40F9-9D68-4B53-A793-6B9AA0C5F63B} did not register with DCOM within the required timeout.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Provider": "Microsoft-Windows-DistributedCOM",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 46002,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NMPJ99VJBWV-Microsoft.YourPhone",
+            "{a9233c27-2e74-4565-b541-6d7c8a1ec736}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 31161,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "HpHwDiag.exe",
+            "2.6.2.0",
+            66470000,
+            "coreclr.dll",
+            "7.0.2024.26716",
+            "6647966b",
+            "c0000005",
+            "00000000001b5988",
+            8292,
+            133698154791005070,
+            "C:\\Program Files\\WindowsApps\\AD2F1837.HPPCHardwareDiagnosticsWindows_2.6.2.0_x64__v10z8vjag6ke6\\HpHwDiag.exe",
+            "C:\\Program Files\\WindowsApps\\AD2F1837.HPPCHardwareDiagnosticsWindows_2.6.2.0_x64__v10z8vjag6ke6\\coreclr.dll",
+            "73369f47-11a2-4bd0-ae59-ba6d1a827322",
+            "AD2F1837.HPPCHardwareDiagnosticsWindows_2.6.2.0_x64__v10z8vjag6ke6",
+            "HPPCHardwareDiagnosticsWindows"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: HpHwDiag.exe, version: 2.6.2.0, time stamp: 0x66470000&#13;&#10;Faulting module name: coreclr.dll, version: 7.0.2024.26716, time stamp: 0x6647966b&#13;&#10;Exception code: 0xc0000005&#13;&#10;Fault offset: 0x00000000001b5988&#13;&#10;Faulting process id: 0x0x2064&#13;&#10;Faulting application start time: 0x0x1DAFDC36F716B93&#13;&#10;Faulting application path: C:\\Program Files\\WindowsApps\\AD2F1837.HPPCHardwareDiagnosticsWindows_2.6.2.0_x64__v10z8vjag6ke6\\HpHwDiag.exe&#13;&#10;Faulting module path: C:\\Program Files\\WindowsApps\\AD2F1837.HPPCHardwareDiagnosticsWindows_2.6.2.0_x64__v10z8vjag6ke6\\coreclr.dll&#13;&#10;Report Id: 73369f47-11a2-4bd0-ae59-ba6d1a827322&#13;&#10;Faulting package full name: AD2F1837.HPPCHardwareDiagnosticsWindows_2.6.2.0_x64__v10z8vjag6ke6&#13;&#10;Faulting package-relative application ID: HPPCHardwareDiagnosticsWindows",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1026,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 31160,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "Application: HpHwDiag.exe\nCoreCLR Version: 7.0.2024.26716\n.NET Version: 7.0.20\nDescription: The process was terminated due to an unhandled exception.\nException Info: System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.\nStack:\n   at System.Environment.Exit(Int32)\n   at SureCheck.App+&lt;Application_Startup&gt;d__13.MoveNext()\n   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Threading.Tasks.VoidTaskResult, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SureCheck.App+&lt;Application_Startup&gt;d__13, HpHwDiagA, Version=2.6.2.0, Culture=neutral, PublicKeyToken=null]].ExecutionContextCallback(System.Object)\n   at System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)\n   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Threading.Tasks.VoidTaskResult, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SureCheck.App+&lt;Application_Startup&gt;d__13, HpHwDiagA, Version=2.6.2.0, Culture=neutral, PublicKeyToken=null]].MoveNext(System.Threading.Thread)\n   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Threading.Tasks.VoidTaskResult, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SureCheck.App+&lt;Application_Startup&gt;d__13, HpHwDiagA, Version=2.6.2.0, Culture=neutral, PublicKeyToken=null]].MoveNext()\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate, System.Object, Int32)\n   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(System.Object, System.Delegate, System.Object, Int32, System.Delegate)\n   at System.Windows.Threading.DispatcherOperation.InvokeImpl()\n   at MS.Internal.CulturePreservingExecutionContext.CallbackWrapper(System.Object)\n   at System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)\n   at MS.Internal.CulturePreservingExecutionContext.Run(MS.Internal.CulturePreservingExecutionContext, System.Threading.ContextCallback, System.Object)\n   at System.Windows.Threading.DispatcherOperation.Invoke()\n   at System.Windows.Threading.Dispatcher.ProcessQueue()\n   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)\n   at MS.Win32.HwndWrapper.WndProc(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)\n   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(System.Object)\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate, System.Object, Int32)\n   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(System.Object, System.Delegate, System.Object, Int32, System.Delegate)\n   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(System.Windows.Threading.DispatcherPriority, System.TimeSpan, System.Delegate, System.Object, Int32)\n   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr, Int32, IntPtr, IntPtr)\n   at MS.Win32.UnsafeNativeMethods.DispatchMessage(System.Windows.Interop.MSG ByRef)\n   at MS.Win32.UnsafeNativeMethods.DispatchMessage(System.Windows.Interop.MSG ByRef)\n   at System.Windows.Threading.Dispatcher.PushFrameImpl(System.Windows.Threading.DispatcherFrame)\n   at System.Windows.Application.RunDispatcher(System.Object)\n   at System.Windows.Application.RunInternal(System.Windows.Window)\n   at SureCheck.App.Main()"
+        },
+        "RenderingInfo": {
+          "Message": "Application: HpHwDiag.exe&#10;CoreCLR Version: 7.0.2024.26716&#10;.NET Version: 7.0.20&#10;Description: The process was terminated due to an unhandled exception.&#10;Exception Info: System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.&#10;Stack:&#10;   at System.Environment.Exit(Int32)&#10;   at SureCheck.App+&lt;Application_Startup&gt;d__13.MoveNext()&#10;   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Threading.Tasks.VoidTaskResult, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SureCheck.App+&lt;Application_Startup&gt;d__13, HpHwDiagA, Version=2.6.2.0, Culture=neutral, PublicKeyToken=null]].ExecutionContextCallback(System.Object)&#10;   at System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)&#10;   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Threading.Tasks.VoidTaskResult, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SureCheck.App+&lt;Application_Startup&gt;d__13, HpHwDiagA, Version=2.6.2.0, Culture=neutral, PublicKeyToken=null]].MoveNext(System.Threading.Thread)&#10;   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Threading.Tasks.VoidTaskResult, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[SureCheck.App+&lt;Application_Startup&gt;d__13, HpHwDiagA, Version=2.6.2.0, Culture=neutral, PublicKeyToken=null]].MoveNext()&#10;   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate, System.Object, Int32)&#10;   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(System.Object, System.Delegate, System.Object, Int32, System.Delegate)&#10;   at System.Windows.Threading.DispatcherOperation.InvokeImpl()&#10;   at MS.Internal.CulturePreservingExecutionContext.CallbackWrapper(System.Object)&#10;   at System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)&#10;   at MS.Internal.CulturePreservingExecutionContext.Run(MS.Internal.CulturePreservingExecutionContext, System.Threading.ContextCallback, System.Object)&#10;   at System.Windows.Threading.DispatcherOperation.Invoke()&#10;   at System.Windows.Threading.Dispatcher.ProcessQueue()&#10;   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)&#10;   at MS.Win32.HwndWrapper.WndProc(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)&#10;   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(System.Object)&#10;   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate, System.Object, Int32)&#10;   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(System.Object, System.Delegate, System.Object, Int32, System.Delegate)&#10;   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(System.Windows.Threading.DispatcherPriority, System.TimeSpan, System.Delegate, System.Object, Int32)&#10;   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr, Int32, IntPtr, IntPtr)&#10;   at MS.Win32.UnsafeNativeMethods.DispatchMessage(System.Windows.Interop.MSG ByRef)&#10;   at MS.Win32.UnsafeNativeMethods.DispatchMessage(System.Windows.Interop.MSG ByRef)&#10;   at System.Windows.Threading.Dispatcher.PushFrameImpl(System.Windows.Threading.DispatcherFrame)&#10;   at System.Windows.Application.RunDispatcher(System.Object)&#10;   at System.Windows.Application.RunInternal(System.Windows.Window)&#10;   at SureCheck.App.Main()&#10;",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 30982,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            12472,
+            133697384922280690,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "8352c37d-f4bd-435a-859b-b92232175aed",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x30B8&#13;&#10;Faulting application start time: 0x0x1DAFD102FB0F2F2&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 8352c37d-f4bd-435a-859b-b92232175aed&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 30980,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            5832,
+            133697277095772900,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "ef62f718-df41-4ac4-8f8c-b5dc1985b6ab",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x16C8&#13;&#10;Faulting application start time: 0x0x1DAFCF714BB02D8&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: ef62f718-df41-4ac4-8f8c-b5dc1985b6ab&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10317,
+          "Version": 0,
+          "Level": 2,
+          "Task": 2,
+          "Opcode": 0,
+          "Keywords": 2305843009213710300,
+          "TimeCreated": "",
+          "EventRecordID": 44944,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "{61ad34ca-3435-400a-b636-c1f8921f669b}",
+            10,
+            19985273135824896,
+            "Microsoft Wi-Fi Direct Virtual Adapter #2",
+            74
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Miniport Microsoft Wi-Fi Direct Virtual Adapter #2, {61ad34ca-3435-400a-b636-c1f8921f669b}, had event Fatal error: The miniport has failed a power transition to operational power",
+          "Level": "Error",
+          "Task": "PnP",
+          "Opcode": "Info",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-NDIS"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 30923,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            7544,
+            133697275135524800,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "c1adf4ed-ce82-429b-9bbe-da18ee18e982",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x1D78&#13;&#10;Faulting application start time: 0x0x1DAFCF69FE3FFC3&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: c1adf4ed-ce82-429b-9bbe-da18ee18e982&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 30813,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            2156,
+            133696826226768080,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "d4fd2779-ef87-4da2-9ca5-b0ac9ba34ccc",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x86C&#13;&#10;Faulting application start time: 0x0x1DAFC8E1AD7F8D5&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: d4fd2779-ef87-4da2-9ca5-b0ac9ba34ccc&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10317,
+          "Version": 0,
+          "Level": 2,
+          "Task": 2,
+          "Opcode": 0,
+          "Keywords": 2305843009213710300,
+          "TimeCreated": "",
+          "EventRecordID": 44517,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "{61ad34ca-3435-400a-b636-c1f8921f669b}",
+            10,
+            19985273135824896,
+            "Microsoft Wi-Fi Direct Virtual Adapter #2",
+            74
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Miniport Microsoft Wi-Fi Direct Virtual Adapter #2, {61ad34ca-3435-400a-b636-c1f8921f669b}, had event Fatal error: The miniport has failed a power transition to operational power",
+          "Level": "Error",
+          "Task": "PnP",
+          "Opcode": "Info",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-NDIS"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 30615,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            1840,
+            133694695006007490,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "4a08f5e8-4a5b-4aef-83e5-cbaad2f3b04b",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x730&#13;&#10;Faulting application start time: 0x0x1DAFA9DE42FF0C2&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 4a08f5e8-4a5b-4aef-83e5-cbaad2f3b04b&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1002,
+          "Version": 0,
+          "Level": 2,
+          "Task": 101,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 30467,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "msinfo32.exe",
+            "10.0.22621.3958",
+            14980,
+            133694116720523710,
+            3,
+            "C:\\Windows\\System32\\msinfo32.exe",
+            "d4911e0e-0034-41dd-b45d-3d0d2ff0bdf9",
+            "",
+            "",
+            "Unknown"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "The program msinfo32.exe version 10.0.22621.3958 stopped interacting with Windows and was closed. To see if more information about the problem is available, check the problem history in the Security and Maintenance control panel.&#13;&#10;",
+          "Level": "Error",
+          "Task": "Hanging Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1001,
+          "Version": 1,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 43928,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "0x00020001 (0x0000000000000011, 0x000000000030cb81, 0x0000000000001005, 0xffffe70000405b90)",
+            "C:\\WINDOWS\\Minidump\\082924-15187-01.dmp",
+            "5924b340-deb2-403e-b343-855a6747ee18"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "The computer has rebooted from a bugcheck.  The bugcheck was: 0x00020001 (0x0000000000000011, 0x000000000030cb81, 0x0000000000001005, 0xffffe70000405b90). A dump was saved in: C:\\WINDOWS\\Minidump\\082924-15187-01.dmp. Report Id: 5924b340-deb2-403e-b343-855a6747ee18.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Channel": "System",
+          "Provider": "BugCheck"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 41,
+          "Version": 9,
+          "Level": 1,
+          "Task": 63,
+          "Opcode": 0,
+          "Keywords": 9223442405598953000,
+          "TimeCreated": "",
+          "EventRecordID": 43891,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            131073,
+            17,
+            3197825,
+            4101,
+            18446716585923074000,
+            0,
+            0,
+            0,
+            0,
+            false,
+            0,
+            25,
+            false,
+            0,
+            25,
+            false,
+            false,
+            0,
+            0,
+            1
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly.",
+          "Level": "Critical",
+          "Opcode": "Info",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-Kernel-Power"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 162,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 43885,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "\\Device\\HarddiskVolume3",
+          "Binary": "000000000100000000000000A2000400890B00000000000000000000000000000000000000000000"
+        },
+        "RenderingInfo": {
+          "Message": "Dump file generation succeded.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 161,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 43884,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "\\Device\\HarddiskVolume3",
+          "Binary": "000000000100000000000000A10004C053000000010000C000000000000000000000000000000000"
+        },
+        "RenderingInfo": {
+          "Message": "Dump file creation failed due to error during dump creation.",
+          "Level": "Error",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 6008,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 43876,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "18:30:54",
+            "‎29/‎08/‎2024",
+            "",
+            "",
+            27450,
+            "",
+            ""
+          ],
+          "Binary": "E807080004001D0012001E0036000A03E807080004001D000D00000036000A03DC0500003C00000001000000DC050000010000001E0000000000000000000000"
+        },
+        "RenderingInfo": {
+          "Message": "The previous system shutdown at 18:30:54 on ‎29/‎08/‎2024 was unexpected.",
+          "Level": "Error",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 30395,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            16248,
+            133693828129878450,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "4909ecc7-cd3d-4aa5-b286-bfa8493cf89d",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x3F78&#13;&#10;Faulting application start time: 0x0x1DAF9D40E57F1A9&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 4909ecc7-cd3d-4aa5-b286-bfa8493cf89d&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 7000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 43839,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "Windows Camera Frame Server Monitor",
+            "%%1053"
+          ],
+          "Binary": "4600720061006D0065005300650072007600650072004D006F006E00690074006F0072000000"
+        },
+        "RenderingInfo": {
+          "Message": "The Windows Camera Frame Server Monitor service failed to start due to the following error: &#13;&#10;The service did not respond to the start or control request in a timely fashion.",
+          "Level": "Error",
+          "Provider": "Microsoft-Windows-Service Control Manager",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 7009,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 43838,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            30000,
+            "Windows Camera Frame Server Monitor"
+          ],
+          "Binary": "4600720061006D0065005300650072007600650072004D006F006E00690074006F0072000000"
+        },
+        "RenderingInfo": {
+          "Message": "A timeout was reached (30000 milliseconds) while waiting for the Windows Camera Frame Server Monitor service to connect.",
+          "Level": "Error",
+          "Provider": "Microsoft-Windows-Service Control Manager",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 43769,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NKSQGP7F2NH-5319275A.WhatsAppDesktop",
+            "{15665a67-9f0d-4027-ac9e-f4fa2de0118f}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NKSQGP7F2NH-5319275A.WhatsAppDesktop.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 30275,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            9100,
+            133693826393465330,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "81b607cd-ad7e-4bd6-9806-aa0da4ca1cb9",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x238C&#13;&#10;Faulting application start time: 0x0x1DAF9D3A6D861EA&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 81b607cd-ad7e-4bd6-9806-aa0da4ca1cb9&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 29300,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            8896,
+            133692958110433060,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "513a3446-24f3-4900-887c-33c67ebe6a57",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x22C0&#13;&#10;Faulting application start time: 0x0x1DAF9097D24BF21&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 513a3446-24f3-4900-887c-33c67ebe6a57&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 8193,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 29255,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "CoCreateInstance",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343933302D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333334302D205449443A202030303031363636302D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service error: Unexpected error calling routine CoCreateInstance.  hr = 0x8007045b, A system shutdown is in progress.&#13;&#10;.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 13,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 36028797018963970,
+          "TimeCreated": "",
+          "EventRecordID": 29254,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "{4e14fba2-2e22-11d1-9964-00c04fbbb345}",
+            "CEventSystem",
+            "0x8007045b, A system shutdown is in progress.",
+            ""
+          ],
+          "Binary": "2D20436F64653A20575254575254494330303030343932332D2043616C6C3A20575254575254494330303030343931362D205049443A202030303030333334302D205449443A202030303031363636302D20434D443A2020433A5C57494E444F57535C73797374656D33325C737663686F73742E657865202D6B204E6574776F726B53657276696365202D70202020202D20557365723A204E616D653A204E5420415554484F524954595C4E4554574F524B20534552564943452C205349443A532D312D352D3230"
+        },
+        "RenderingInfo": {
+          "Message": "Volume Shadow Copy Service information: The COM Server with CLSID {4e14fba2-2e22-11d1-9964-00c04fbbb345} and name CEventSystem cannot be started. [0x8007045b, A system shutdown is in progress.&#13;&#10;]",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 29152,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            15712,
+            133692251823197140,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "5c1bf595-263d-4469-a015-c31e6380641a",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x3D60&#13;&#10;Faulting application start time: 0x0x1DAF8650B24CBD6&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 5c1bf595-263d-4469-a015-c31e6380641a&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 29141,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            15488,
+            133692223515996860,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "09fc6a51-de37-4cb9-982f-a1e2a02b8c1a",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x3C80&#13;&#10;Faulting application start time: 0x0x1DAF85E73E732C8&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 09fc6a51-de37-4cb9-982f-a1e2a02b8c1a&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 29096,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            17288,
+            133692100702812350,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "09b4eb66-6402-419e-8441-fa7c7307f482",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x4388&#13;&#10;Faulting application start time: 0x0x1DAF841DBAAB8BD&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 09b4eb66-6402-419e-8441-fa7c7307f482&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 10010,
+          "Version": 0,
+          "Level": 2,
+          "Task": 0,
+          "Opcode": 0,
+          "Keywords": 9259400833873740000,
+          "TimeCreated": "",
+          "EventRecordID": 43113,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": "{338B40F9-9D68-4B53-A793-6B9AA0C5F63B}"
+        },
+        "RenderingInfo": {
+          "Message": "The server {338B40F9-9D68-4B53-A793-6B9AA0C5F63B} did not register with DCOM within the required timeout.",
+          "Level": "Error",
+          "Opcode": "Info",
+          "Provider": "Microsoft-Windows-DistributedCOM",
+          "Keywords": {
+            "Keyword": "Classic"
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 28271,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            1384,
+            133692094621459100,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "7b1f5d73-482b-4685-84e7-8c394fb5fa71",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x568&#13;&#10;Faulting application start time: 0x0x1DAF8407130A2A8&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 7b1f5d73-482b-4685-84e7-8c394fb5fa71&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 20,
+          "Version": 1,
+          "Level": 2,
+          "Task": 1,
+          "Opcode": 13,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 42754,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "System",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            2147958018,
+            "9NKSQGP7F2NH-5319275A.WhatsAppDesktop",
+            "{b1b23213-1cc2-4ba3-823b-3b866844ce48}",
+            1,
+            "{855e8a7c-ecb4-4ca3-b045-1dfa50104289}"
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NKSQGP7F2NH-5319275A.WhatsAppDesktop.",
+          "Level": "Error",
+          "Task": "Windows Update Agent",
+          "Opcode": "Installation",
+          "Channel": "System",
+          "Provider": "Microsoft-Windows-WindowsUpdateClient",
+          "Keywords": {
+            "Keyword": [
+              "Installation",
+              "Failure"
+            ]
+          }
+        }
+      },
+      {
+        "System": {
+          "Provider": "",
+          "EventID": 1000,
+          "Version": 0,
+          "Level": 2,
+          "Task": 100,
+          "Opcode": 0,
+          "Keywords": 9223372036854776000,
+          "TimeCreated": "",
+          "EventRecordID": 28070,
+          "Correlation": "",
+          "Execution": "",
+          "Channel": "Application",
+          "Computer": "BBNHP",
+          "Security": ""
+        },
+        "EventData": {
+          "Data": [
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "SECOCL64.exe",
+            "2.0.11.35",
+            "650400f8",
+            "c0000409",
+            "00000000000bbac1",
+            8608,
+            133691214413605120,
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "C:\\WINDOWS\\System32\\SECOCL64.exe",
+            "94a3a888-48cf-4f0c-b84f-9a9190737221",
+            "",
+            ""
+          ]
+        },
+        "RenderingInfo": {
+          "Message": "Faulting application name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Faulting module name: SECOCL64.exe, version: 2.0.11.35, time stamp: 0x650400f8&#13;&#10;Exception code: 0xc0000409&#13;&#10;Fault offset: 0x00000000000bbac1&#13;&#10;Faulting process id: 0x0x21A0&#13;&#10;Faulting application start time: 0x0x1DAF77380B6A8FF&#13;&#10;Faulting application path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Faulting module path: C:\\WINDOWS\\System32\\SECOCL64.exe&#13;&#10;Report Id: 94a3a888-48cf-4f0c-b84f-9a9190737221&#13;&#10;Faulting package full name: &#13;&#10;Faulting package-relative application ID:",
+          "Level": "Error",
+          "Task": "Application Crashing Events",
+          "Opcode": "Info",
+          "Channel": "Application"
+        }
+      }
+    ]
+  }
+}

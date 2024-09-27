@@ -1,0 +1,263 @@
+/* *{
+    position: relative;
+    font-size: medium;
+    padding: 3px;
+    margin: 5px;
+}
+.container{
+    min-width: 20em;
+    min-height: 20em;
+}
+.chat-area{
+    float: left;
+    background-color: lightgreen;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 5px rgba(0,0,0,0.3);
+    min-width: 20em;
+    max-width: 45em;
+    
+}
+.chats-container{
+    float: left;
+    box-shadow: 2px 2px 2px 3px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    width: 10em;
+    min-height: 2em;
+}
+.prompt-question{
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.prompt-reply{
+    text-align: justify;
+    text-decoration: none;
+    padding: 1.2em;
+}
+.prompt-response{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 15px; 
+    box-shadow: 2px 2px 2px 3px rgba(0,0,0,0.3);
+    max-width: 55em;
+    
+}
+input[type="submit"]{
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    width: 8em;
+
+}
+input[type="submit"]:hover{
+    background-color: yellow;
+    color:red;
+    cursor: pointer;
+}
+input[type="submit"]:focus{
+    background-color: yellow;
+    color:red;
+    cursor: pointer;
+}
+input[type="submit"]:disabled{
+    background-color: grey;
+    cursor: not-allowed;
+}
+#prompt{
+    background-color: antiquewhite;
+    width: 15em;
+    border-radius: 5px;
+}
+#gpt-model-select{
+    background-color: lightcoral;
+    border-radius: 5px;
+    text-align: center;
+    width: 8em;
+}
+
+.prompt-tab{
+    border: 1px solid;
+    border-radius: 8px;
+    margin: 5px;
+    background-color: cadetblue;
+    text-align: center;
+    cursor: pointer;
+}
+.prompt-tab:active{
+    background-color: deepskyblue;
+} */
+
+/* Base styles for global reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* General container */
+.container {
+    min-width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f8f9fa, #d0e8d0);
+}
+
+/* Chat area with gradient and shadow */
+.chat-area {
+    float: left;
+    background: linear-gradient(135deg, #76c7c0, #1d7373);
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    min-width: 300px;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+/* Chats container */
+.chats-container {
+    background-color: #fefefe;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    width: 90%;
+    min-height: 50px;
+    margin-bottom: 15px;
+}
+
+/* Prompt question styling */
+.prompt-question {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* Prompt reply styling */
+.prompt-reply {
+    text-align: justify;
+    padding: 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Prompt response */
+.prompt-response {
+    background-color: #f8fbfc;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 140px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Submit button hover and focus states */
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Disabled submit button */
+input[type="submit"]:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+/* Input field styles */
+#prompt {
+    background-color: #fafafa;
+    width: 240px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+/* GPT model select */
+#gpt-model-select {
+    background-color: #ff6b6b;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* GPT provider */
+#gpt-provider {
+    background-color: #24163a;
+    border-radius: 8px;
+    justify-content: center;
+    display: inline-flex;
+    padding: 8px;
+    width: 160px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: white;
+}
+
+/* Prompt tab with modern style */
+.prompt-tab {
+    border: 2px;
+    border-radius: 12px;
+    margin: 10px;
+    background-color: #081677;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Prompt tab hover and active states */
+.prompt-tab:hover {
+    background-color: #007bff;
+    transform: translateY(-2px);
+}
+
+.prompt-tab:active {
+    background-color: #0056b3;
+}
+
+/* Media query for mobile responsiveness */
+@media only screen and (max-width: 768px) {
+    .chat-area,
+    .prompt-response {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    input[type="submit"],
+    #prompt,
+    #gpt-model-select,
+    #gpt-provider{
+        width: 100%;
+    }
+}

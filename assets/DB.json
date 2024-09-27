@@ -1,0 +1,55 @@
+{
+    "data":[
+        {
+            "surl": "lms",
+            "url": "http://localhost:9500/v1/chat/completions",
+            "msgJSON": { 
+                "messages": [ 
+                  { "role": "system", "content": "You are a helpful coding assistant." },
+                  { "role": "user", "content": "How do I init and update a git submodule?" }
+                ], 
+                "temperature": 0.7, 
+                "max_tokens": -1,
+                "stream": false
+              }
+        },
+        {
+            "surl": "hf",
+            "url": "https://api-inference.huggingface.co/models/mistralai/Mistral-Nemo-Instruct-2407/v1/chat/completions",
+            "msgJSON": {
+                "model": "mistralai/Mistral-Nemo-Instruct-2407",
+                "messages": [{"role": "user", "content": "What is the capital of France?"}],
+                "max_tokens": 500,
+                "stream": false
+            }
+        },
+        {
+            "surl": "gcd",
+            "url": "https://api.groq.com/openai/v1/chat/completions",
+            "msgJSON": {"messages": [{"role": "user", "content": "Explain the importance of fast language models"}], "model": "llama3-8b-8192"}
+        },
+        {
+            "surl": "pkd",
+            "url": "https://api.pawan.krd/cosmosrp/v1/chat/completions",
+            "msgJSON": {
+                "model": "gpt-4o",
+                "messages": [
+                    {"role": "user", "content": "Contents or prompt we give .."}
+                ],
+                "temperature": 0.6
+            }
+        },
+        {
+            "surl": "gmi",
+            "url": "http://localhost:9500/v1/chat/completions",
+            "msgJSON": { 
+                "messages": [ 
+                  { "role": "user", "content": "How do I init and update a git submodule?" }
+                ], 
+                "temperature": 0.7, 
+                "max_tokens": -1,
+                "stream": false
+              }
+        }
+    ]
+}

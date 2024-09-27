@@ -1,0 +1,20 @@
+install Postgresql (Prerequisite)
+
+Login To Postgresql
+
+set server = "localhost"
+set PG_USER = "postgres"
+set port = "8000"
+
+# Command
+psql -h %server% -U %PG_USER% -p %port%
+
+#Enter password (Default password is "root")
+
+You wll be logged into psql.
+
+#command in psql to create database.
+\c peoplemgmt
+
+Now you have created the Database, Now use DB.sql to run the query in PGAdmin tool.
+
