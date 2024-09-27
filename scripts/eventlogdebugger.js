@@ -74,6 +74,8 @@ jsonResponse.then((jsonData)=>{
     console.error(error);
 });
 
-$(document).on('click', '.log-table-col-main', function(){
-    DataEventHandler(this);
+$(document).on('click', '.log-table-col-main', function(){ 
+    if (DataEventHandler(this)) {
+        console.warn("Kindly wait till the response is Generated ... ");
+    }
 });

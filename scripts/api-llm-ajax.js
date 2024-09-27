@@ -1,8 +1,15 @@
 import { formatGPT, logFormater } from "./formatGPT.js";
 
 const url = './logprompt';
+let isProcessing = false;
 
 export function DataEventHandler(msg){
+
+    if (isProcessing) {
+        return isProcessing;
+    }
+
+    isProcessing = true;
     const desc = $('#api-response-description');
     const rem = $('#api-response-remedy');
     const prev = $('#api-response-prevention');
@@ -26,10 +33,16 @@ export function DataEventHandler(msg){
         }
         
         
-    }).catch((error)=>{
+    })
+    .catch((error)=>{
         console.error(error);
+    })
+    .finally(()=>{
+        isProcessing = false;
     });
-};
+
+    return false;
+}
 
 function AjaxPromise(prompt, msgboxes) {
     return new Promise((resolve, reject) => {
