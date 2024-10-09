@@ -1,3 +1,19 @@
+<%@ page contentType="html" %>
+<%
+    String sessionAttr = (String)session.getAttribute("login");
+
+    if(sessionAttr != null){
+        if(sessionAttr.equals("yes")){
+            response.sendRedirect("./welcome-user.jsp");
+        }
+        // Enter into this Page.
+    }
+    
+    // Enter into this Page.
+
+
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,21 +23,6 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-
-    <%
-        String sessionAttr = (String)session.getAttribute("login");
-
-        if(sessionAttr != null){
-            if(sessionAttr.equals("yes")){
-                response.sendRedirect("./welcome-user.jsp");
-            }
-            // Enter into this Page.
-        }
-        
-        // Enter into this Page.
-
-
-    %>
     <form class="form-field" action="auth-user" method="post">
         <label for="uname">
             <input name="uname" id="uname" type="text" placeholder="UserName" required >

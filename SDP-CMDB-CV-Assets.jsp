@@ -1,10 +1,26 @@
 <%@ page contentType="html" %>
+<% 
+    String sessionAttr = (String)session.getAttribute("login");
+
+    if(sessionAttr != null){
+        if(sessionAttr.equals("no")){
+            session.setAttribute("msg", "Kindly Login ...");
+            response.sendRedirect("./login.jsp");
+        }
+        // Enter into this Page.
+    }
+    else{
+        session.setAttribute("msg", "Session Expired Kindly Login Again ...");
+        response.sendRedirect("./login.jsp");
+    }
+
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Desk Viewer</title>
+    <title>Service Desk Critical and Vulnerable Assets</title>
     <!-- Style Sheet -->
     <link rel="stylesheet" href="./styles/SDP-CMDB.css">
     <!-- JavaScript -->
@@ -15,23 +31,6 @@
     
 </head>
 <body>
-
-    <% 
-        String sessionAttr = (String)session.getAttribute("login");
-
-        if(sessionAttr != null){
-            if(sessionAttr.equals("no")){
-                session.setAttribute("msg", "Kindly Login ...");
-                response.sendRedirect("./login.jsp");
-            }
-            // Enter into this Page.
-        }
-        else{
-            session.setAttribute("msg", "Session Expired Kindly Login Again ...");
-            response.sendRedirect("./login.jsp");
-        }
-
-    %>
     <div class="container">
         <div class="options-container">
             <input class="input-key" id="api-key" type="password" placeholder="Enter API Key">

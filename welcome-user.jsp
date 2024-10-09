@@ -29,9 +29,7 @@
         <%
             String logMessage = (String)session.getAttribute("msg");
             if (logMessage != null){
-                if(logMessage.charAt(0) != 'A'){
-                    out.println("<div class=\"log-msg\">"+ logMessage +"</div>");
-                }
+                out.println("<div class=\"log-msg\">"+ logMessage +"</div>");
             }
         %>
         <a href="./get-api-key.jsp"><button type="button" class="submit-button"> LLM API Integration </button></a>

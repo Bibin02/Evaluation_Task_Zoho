@@ -29,7 +29,7 @@ public class ValidateAPIServlet extends HttpServlet{
         else if(new OpenAIUserAuthorizer().validateAPI(apiKey, url)){
             session.setAttribute("url", url);
             session.setAttribute("apikey", apiKey);
-            session.setAttribute("msg", session.getAttribute("msg")+" and API Key Authorized !");
+            session.setAttribute("msg", "API Key Authorized !");
             res.sendRedirect("./llm-home.jsp");
         }
         else{

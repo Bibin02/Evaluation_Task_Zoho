@@ -1,37 +1,36 @@
 <%@page contentType="text/html" import="java.util.*" import="database.*"%>
+<%
+    String sessionAttr = (String)session.getAttribute("login");
+
+    if(sessionAttr != null){
+        if(sessionAttr.equals("yes")){
+            // Enter into this Page.
+        }
+        else{
+            response.sendRedirect("./login.jsp");
+        }
+    }
+    else{
+        response.sendRedirect("./login.jsp");
+    }
+
+    sessionAttr = (String)session.getAttribute("apikey");
+
+    if(sessionAttr != null){
+        response.sendRedirect("./welcome-user.jsp");
+    }
+    // Enter into this Page.
+
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My OpenAI API Gateway</title>
+    <title>API Gateway</title>
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-
-    <%
-        String sessionAttr = (String)session.getAttribute("login");
-
-        if(sessionAttr != null){
-            if(sessionAttr.equals("yes")){
-                // Enter into this Page.
-            }
-            else{
-                response.sendRedirect("./login.jsp");
-            }
-        }
-        else{
-            response.sendRedirect("./login.jsp");
-        }
-
-        sessionAttr = (String)session.getAttribute("apikey");
-
-        if(sessionAttr != null){
-            response.sendRedirect("./eventlogdebugger.jsp");
-        }
-        // Enter into this Page.
-
-    %>
     <form class="form-field" action="auth-key" method="post">
         <select class="url-select" name="url" id="url">
             <%

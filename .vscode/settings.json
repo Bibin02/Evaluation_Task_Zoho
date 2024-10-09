@@ -3,7 +3,7 @@
         "lib/**/*.jar",
         "WEB-INF/lib/json-simple-1.1.1.jar",
         "WEB-INF/lib/postgresql-42.7.3.jar",
-        "WEB-INF/lib/servlet.jar"
+        "WEB-INF/lib/servlet-api.jar"
     ]
     
 }

@@ -1,4 +1,20 @@
 <%@ page contentType="html" %>
+<% 
+    String sessionAttr = (String)session.getAttribute("login");
+
+    if(sessionAttr != null){
+        if(sessionAttr.equals("no") || session.getAttribute("apikey") == null){
+            session.setAttribute("msg", "Kindly Login ...");
+            response.sendRedirect("./get-api-key.jsp");
+        }
+        // Enter into this Page.
+    }
+    else{
+        session.setAttribute("msg", "Session Expired Kindly Login Again ...");
+        response.sendRedirect("./index.jsp");
+    }
+
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,23 +29,6 @@
     <script type="module" src="./scripts/promptLoader.js"></script>
 </head>
 <body>
-
-    <% 
-        String sessionAttr = (String)session.getAttribute("login");
-
-        if(sessionAttr != null){
-            if(sessionAttr.equals("no") || session.getAttribute("apikey") == null){
-                session.setAttribute("msg", "Kindly Login ...");
-                response.sendRedirect("./get-api-key.jsp");
-            }
-            // Enter into this Page.
-        }
-        else{
-            session.setAttribute("msg", "Session Expired Kindly Login Again ...");
-            response.sendRedirect("./index.jsp");
-        }
-
-    %>
     <div class="container">
 
         <div id="chats-container" class="chats-container">

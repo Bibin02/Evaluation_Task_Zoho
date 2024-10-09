@@ -1,10 +1,26 @@
 <%@ page contentType="html" %>
+<% 
+    String sessionAttr = (String)session.getAttribute("login");
+
+    if(sessionAttr != null){
+        if(sessionAttr.equals("no") || session.getAttribute("apikey") == null){
+            session.setAttribute("msg", "Kindly Login ...");
+            response.sendRedirect("./get-api-key.jsp");
+        }
+        // Enter into this Page.
+    }
+    else{
+        session.setAttribute("msg", "Session Expired Kindly Login Again ...");
+        response.sendRedirect("./index.jsp");
+    }
+
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open AI Platfrom</title>
+    <title>Windows-Event LLM based Debugger</title>
 
     <link rel="stylesheet" href="./styles/debugger-page.css">
 
@@ -16,23 +32,6 @@
     
 </head>
 <body>
-
-    <% 
-        String sessionAttr = (String)session.getAttribute("login");
-
-        if(sessionAttr != null){
-            if(sessionAttr.equals("no") || session.getAttribute("apikey") == null){
-                session.setAttribute("msg", "Kindly Login ...");
-                response.sendRedirect("./get-api-key.jsp");
-            }
-            // Enter into this Page.
-        }
-        else{
-            session.setAttribute("msg", "Session Expired Kindly Login Again ...");
-            response.sendRedirect("./index.jsp");
-        }
-
-    %>
     <div class="container">
         <div class="options-container">
             <div id="gpt-provider"><%= (String)session.getAttribute("url") %></div>

@@ -1,27 +1,27 @@
+<%@ page contentType="html" %>
+<%
+    String sessionAttr = (String)session.getAttribute("login");
+
+    if(sessionAttr != null){
+        if(sessionAttr.equals("yes")){
+            response.sendRedirect("./welcome-user.jsp");
+        }
+        // Enter into this Page.
+    }
+    // Enter into this Page.
+
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Open AI Signup</title>
+    <title>Webpage Signup</title>
     <link rel="stylesheet" href="./styles/index.css">
     <script type="module" src="./scripts/jquery-3.7.1.js"></script>
     <script type="module" src="./scripts/signup.js"></script>
 </head>
 <body>
-
-    <%
-        String sessionAttr = (String)session.getAttribute("login");
-
-        if(sessionAttr != null){
-            if(sessionAttr.equals("yes")){
-                response.sendRedirect("./welcome-user.jsp");
-            }
-            // Enter into this Page.
-        }
-        // Enter into this Page.
-
-    %>
     <form class="form-field" action="create-user" method="post">
         <label for="uname">
             <input name="uname" id="uname" type="text" placeholder="UserName" required >
