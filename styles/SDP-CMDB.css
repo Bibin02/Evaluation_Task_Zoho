@@ -1,0 +1,173 @@
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #fff7cc, #ffe680);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/* Options-Container */
+.options-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    *{
+        margin: 5px;
+    }
+}
+
+/* Table Structure */
+table {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff9e6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 100%;
+    max-height: 500px;
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+/* Log Table Headers */
+.log-table-header th, .table-header th {
+    position: sticky;
+    top: 0; /* This is necessary for sticky positioning */
+    z-index: 1; /* Ensures headers stay above content when scrolling */
+    text-align: center;
+    width: 1%;
+    background-color: #ffdd57;
+    color: #333;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 3px solid #ffd700;
+}
+
+/* Log Table Rows */
+.log-table-body tr, .table-body-row {
+    background-color: #fff9e6;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.log-table-body tr:hover, .table-body-row:hover {
+    background-color: #ffec99;
+}
+
+.log-table-body td, .table-body-row td {
+    padding: 12px;
+    text-align: center;
+    color: #555;
+    border-bottom: 1.5px solid #ffd27f;
+}
+
+/* Flex alignment for log-table and description box */
+.log-table-container {
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+/* Logout Button */
+.logout-button{
+    background-color: #760339;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    width: 160px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: white;
+}
+
+/* Fetch Button */
+#fetch-button{
+    cursor: pointer;
+    background-color: #2be91e;
+    text-decoration: none;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    width: 200px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: black;
+}
+
+/* Fetch Button Disabled */
+#fetch-button:disabled{
+    cursor: not-allowed;
+    background-color: grey;
+    color: black;
+}
+
+/* Api Key Input */
+#api-key{
+    background-color: azure;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    width: 40%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: black;
+}
+
+/* Response message from Ajax call */
+#response-status{
+    background-color: transparent;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+/* Styles for Multiple select */
+.multiple_select
+{
+    --multitext: "Select values";
+    background-color: turquoise;
+    display: flex;
+	overflow: hidden;
+	height: 1.7em;
+	width: 50%;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 1.7em;
+}
+.multiple_select::before
+{
+	content: var(--multitext);
+}
+.multiple_select_active
+{
+	overflow: visible !important;
+}
+.multiple_select option
+{
+	display: none;
+	background-color: turquoise;
+	
+}
+.multiple_select_active option
+{
+	display: block;
+    z-index: 2;
+}
+
+.multiple_select option::before {
+  content: "\2610";
+}
+.multiple_select option:checked::before {
+  content: "\2611";
+}

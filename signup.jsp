@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Open AI Signup</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <script type="module" src="./scripts/jquery-3.7.1.js"></script>
+    <script type="module" src="./scripts/signup.js"></script>
 </head>
 <body>
 
@@ -13,7 +15,7 @@
 
         if(sessionAttr != null){
             if(sessionAttr.equals("yes")){
-                response.sendRedirect("./get-api-key.jsp");
+                response.sendRedirect("./welcome-user.jsp");
             }
             // Enter into this Page.
         }
@@ -38,26 +40,12 @@
             }
         %>
         <a href="./login.jsp"><button class="submit-button" type="button"> Login </button></a>
-        <button class="submit-button" type="button" onclick="validatePassword()">Validate</button>
         <input id="signup-button" class="submit-button" type="submit" value="Signup" disabled>
+        <div class="info">Provide Valid Response to turn this into Green to submit. 
+            min password chars = 8 and password and confirm password should be same
+        </div>
     </form>
 
-    <script>
-        function validatePassword() {
-            let passtag = document.getElementById("pass").value;
-            let cnfpasstag = document.getElementById("cnfpass").value;
-            
-            if (passtag.length < 6) {
-                alert("Password Should be atleast 6 letters / Numbers.")
-            }
-            else if (passtag !== cnfpasstag) {
-                alert("Password and Confirm Password Doesn't Match.")
-            }
-            else{
-                alert("Password Valid. Thankyou for signing up.")
-                document.getElementById("signup-button").removeAttribute("disabled");
-            }
-        }
-    </script>
+    
 </body>
 </html>

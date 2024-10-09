@@ -23,7 +23,7 @@ public class UserLoginServlet extends HttpServlet{
         else if(new OpenAIUserAuthorizer().authorize(username, password)){
             session.setAttribute("login", "yes");
             session.setAttribute("msg", "Welcome "+username+" ...");
-            res.sendRedirect("./get-api-key.jsp");
+            res.sendRedirect("./welcome-user.jsp");
         }
         else{
             session.setAttribute("login", "no");

@@ -54,7 +54,7 @@
         %>
 
         <input class="submit-button" type="submit" value="Login">
-        <a href="./logout"><button type="button" class="submit-button"> Logout </button></a>
+        <a href="./welcome-user.jsp"><button type="button" class="submit-button"> Back </button></a>
     </form>
 </body>
 </html>

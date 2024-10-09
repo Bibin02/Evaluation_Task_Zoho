@@ -30,7 +30,7 @@ public class ValidateAPIServlet extends HttpServlet{
             session.setAttribute("url", url);
             session.setAttribute("apikey", apiKey);
             session.setAttribute("msg", session.getAttribute("msg")+" and API Key Authorized !");
-            res.sendRedirect("./eventlogdebugger.jsp");
+            res.sendRedirect("./llm-home.jsp");
         }
         else{
             session.setAttribute("msg", "Invalid API Key use another API Key ...");

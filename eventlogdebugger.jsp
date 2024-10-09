@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open AI Platfrom</title>
+
     <link rel="stylesheet" href="./styles/debugger-page.css">
-    <script
-        type="module"
-        src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-        crossorigin="anonymous">
-    </script>
+
+    <script type="module" src="./scripts/jquery-3.7.1.js"></script>
     <script type="module" src="./scripts/promptLoader.js"></script>
     <script type="module" src="./scripts/formatGPT.js"></script>
     <script type="module" src="./scripts/eventlogdebugger.js"></script>
@@ -26,7 +23,7 @@
         if(sessionAttr != null){
             if(sessionAttr.equals("no") || session.getAttribute("apikey") == null){
                 session.setAttribute("msg", "Kindly Login ...");
-                response.sendRedirect("./index.jsp");
+                response.sendRedirect("./get-api-key.jsp");
             }
             // Enter into this Page.
         }
@@ -42,7 +39,7 @@
             <select id="gpt-model-select" name="gpt-model">
                 <!-- Loaded Dynamically -->
             </select>
-            <a href="logout" style="text-decoration: none;" class="logout-button">Logout</a>
+            <a href="./llm-home.jsp" style="text-decoration: none;" class="logout-button"> Back </a>
         </div>
 
         <div class="log-table-container">

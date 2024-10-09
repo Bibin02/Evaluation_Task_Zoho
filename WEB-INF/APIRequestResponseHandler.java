@@ -1,10 +1,5 @@
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
-import java.io.UnsupportedEncodingException;
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
@@ -117,33 +112,12 @@ public class APIRequestResponseHandler {
 
     /**
      * 
-     * @param inputStream
-     * @return response Data from the URL.
-     * @throws IOException 
-     * @throws UnsupportedEncodingException 
-     */
-    public String getResponse(InputStream inputStream) throws UnsupportedEncodingException, IOException{
-        // Read the response
-        StringBuilder response;
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream, "utf-8"))) {
-            response = new StringBuilder();
-            String responseLine;
-            while ((responseLine = br.readLine()) != null) {
-                response.append(responseLine.trim());
-            }
-        }
-        // Return Prompt Message
-        return getReplyMessage(response);
-    }
-
-    /**
-     * 
      * @param response
      * @return chat completion text.
      */
-    private String getReplyMessage(StringBuilder response){
+    public String getReplyMessage(String response){
         
-        JSONObject responsejson = (JSONObject) JSONValue.parse(response.toString());
+        JSONObject responsejson = (JSONObject) JSONValue.parse(response);
 
         // System.out.println(responsejson +"  "+ response.toString());
 

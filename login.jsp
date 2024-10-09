@@ -13,7 +13,7 @@
 
         if(sessionAttr != null){
             if(sessionAttr.equals("yes")){
-                response.sendRedirect("./get-api-key.jsp");
+                response.sendRedirect("./welcome-user.jsp");
             }
             // Enter into this Page.
         }
