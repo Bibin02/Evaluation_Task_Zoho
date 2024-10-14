@@ -26,12 +26,6 @@
 <body>
     <div class="form-field">
         <h2 style="margin-bottom: 1.5em;">List of Applications</h2>
-        <%
-            String logMessage = (String)session.getAttribute("msg");
-            if (logMessage != null){
-                out.println("<div class=\"log-msg\">"+ logMessage +"</div>");
-            }
-        %>
         <a href="./get-api-key.jsp"><button type="button" class="submit-button"> LLM API Integration </button></a>
         <a href="./SDP-CMDB-CV-Assets.jsp"><button type="button" class="submit-button"> SDP CMDB App </button></a>
         <a href="./logout"><button type="button" class="submit-button"> Logout </button></a>
