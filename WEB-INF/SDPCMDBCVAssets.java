@@ -3,6 +3,10 @@ import java.io.PrintWriter;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
+
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+
 import javax.servlet.annotation.WebServlet;
 
 import database.DBOperations;
@@ -40,7 +44,27 @@ public class SDPCMDBCVAssets extends HttpServlet{
         
         String responseJSON = new CallAPI("https://localhost:7000/api/cmdb/ci", apiKey, fields).initGet_CV_CMDB_Assets();
 
-        out.println(responseJSON);
+        out.println(resstructureJSON(responseJSON));
+    }
+
+    @SuppressWarnings("unchecked")
+    private String resstructureJSON(String responseJSON) {
+
+        JSONObject respJsonObject = (JSONObject)JSONValue.parse(responseJSON), outputJSON = new JSONObject();
+
+        JSONObject Details = (JSONObject)(((JSONObject)((JSONObject)((JSONObject)(((JSONObject)respJsonObject
+                            .get("API"))
+                            .get("response")))
+                            .get("operation")))
+                            .get("Details"));
+        
+        Object headerArray = ((JSONObject)(Details.get("field-names"))).get("name");
+        Object recordsArray = ((JSONObject)(Details.get("field-values"))).get("record");
+
+        outputJSON.put("headerArray", headerArray);
+        outputJSON.put("recordsArray",recordsArray);
+
+        return outputJSON.toJSONString();
     }
     
 }

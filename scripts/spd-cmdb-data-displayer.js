@@ -10,9 +10,8 @@ export function displayJSONData(responseJSON) {
         return;
     }
 
-    let operationData = responseJSON.API.response.operation.Details;
-    let headerArray = operationData["field-names"].name;
-    let recordsArray = operationData["field-values"].record;
+    let headerArray = responseJSON.headerArray;
+    let recordsArray = responseJSON.recordsArray
     response_bar.innerHTML = "Fetch Success";
 
     // Append Headers
