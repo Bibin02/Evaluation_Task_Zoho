@@ -1,7 +1,9 @@
-import { displayJSONData } from "./spd-cmdb-data-displayer.js";
+import { displayJSONData } from "./cmdb-data-displayer.js";
 
 let isProcessing = false;
+const cmdb_select = document.getElementById("cmdb-selector");
 const apikeytag = document.getElementById("api-key");
+const object_id = document.getElementById("object-id");
 
 
 export function callAjax() {
@@ -14,7 +16,7 @@ export function callAjax() {
     isProcessing = true;
     let fields = getFields();
 
-    C_V_AjaxPromise(apikeytag.value, fields).then((response)=>{
+    C_V_AjaxPromise().then((response)=>{
         displayJSONData(JSON.parse(response));
     })
     .catch((error)=>{
@@ -26,11 +28,11 @@ export function callAjax() {
     
 }
 
-function C_V_AjaxPromise(apikey, fields) {
+function C_V_AjaxPromise() {
     return new Promise((resolve, reject) => {
         var xhttp = new XMLHttpRequest();
 
-        xhttp.open("POST", "./SDP-CMDB-CV-Assets");
+        xhttp.open("POST", "./CMDB-CV-Assets");
 
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState === 4) {
@@ -42,9 +44,17 @@ function C_V_AjaxPromise(apikey, fields) {
                 }
             }
         }
-        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhttp.setRequestHeader("Content-Type", "application/json");
 
-        xhttp.send(`apikey=${encodeURIComponent(apikey)}&fields=${encodeURIComponent(fields)}`);
+        let requestJSON = 
+        {
+            cmdb: cmdb_select.value,
+            object_id: object_id.value,
+            apikey: apikeytag.value,
+            fields: getFields(),
+        };
+
+        xhttp.send(JSON.stringify(requestJSON));
     });
 }
 

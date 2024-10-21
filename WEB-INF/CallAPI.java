@@ -20,6 +20,7 @@ import database.DBOperations;
 public class CallAPI{
     
     private Map<String, String> apiargs = new HashMap<>();
+    public CallAPI(){}
 
     public CallAPI(String url, String username, String password, String prompt, String model){
         this.apiargs.put("username", username);
@@ -35,36 +36,22 @@ public class CallAPI{
         this.apiargs.put("model", model);
     }
 
-    public CallAPI(String endpoint, String apiKey, String fields){
-        this.apiargs.put("endpoint", endpoint);
-        this.apiargs.put("apiKey", apiKey);
-        this.apiargs.put("fields", fields);
-    }
-
-    public String initGet_CV_CMDB_Assets(){
+    public String get_CV_CMDB_Assets(String CMDB, String apiKey, String object_id, String fields){
         try{
             setupIgnoreSSLCertificate();
-            URL url = new URI(this.apiargs.get("endpoint")).toURL();
+
+            URL url = null;
+
+            if (CMDB.equals("snipe-it")) {
+                url = new URI(new DBOperations().getCMDBURL(CMDB) + object_id).toURL();
+            }
+            else{
+                url = new URI(new DBOperations().getCMDBURL(CMDB)).toURL();
+            }
+            
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
-            // Setting Headers
-            connection.setRequestMethod("POST");
-            connection.setRequestProperty("Authtoken", this.apiargs.get("apiKey"));
-            connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
-            connection.setDoOutput(true);
-
-            // Handler for handling Requests and Response.
-            XMLRequestResponseHandler reqreshandler = new XMLRequestResponseHandler();
-            
-            Map<String, String> params = new HashMap<>();
-            StringBuilder returnFields = new StringBuilder();
-            for (String fieldString : this.apiargs.get("fields").split(",")) {
-                returnFields.append("<name>"+fieldString+"</name>");
-            }
-            params.put("AssetType", "CV");
-            params.put("ReturnFields", returnFields.toString() );
-
-            reqreshandler.sendRequest(connection.getOutputStream(), params);
+            new CMDBLibrary().sendRequestToCMDB(CMDB, apiKey, object_id, fields, connection);
 
             // Exception in Connection Handling
             exceptionThrowable(connection);
@@ -75,6 +62,28 @@ public class CallAPI{
         }
         catch (IOException | URISyntaxException ioe){
             return ("{ \"message\": \""+ioe.getLocalizedMessage()+"\" } ");
+        }
+    }
+
+    public String getCmdbBuildToken(){
+        try {
+            URL url = new URI(new DBOperations().getCMDBURL("cmdbuildtoken")).toURL();
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            // Setting Headers
+            connection.setRequestMethod("POST");
+            connection.setRequestProperty("Content-Type", "application/json");
+            connection.setDoOutput(true);
+
+            CMDBRequestResponseHandler requestResponseHandler = new CMDBRequestResponseHandler();
+            Map<String, String> params = new HashMap<>();
+            params.put("cmdb", "cmdbuildtoken");
+
+            requestResponseHandler.sendRequest(connection.getOutputStream(), params);
+            
+            return requestResponseHandler.reStructureJSON("cmdbuildtoken", getResponse(connection.getInputStream()));
+        } 
+        catch (IOException | URISyntaxException ioe){
+            return (ioe.getLocalizedMessage());
         }
     }
 

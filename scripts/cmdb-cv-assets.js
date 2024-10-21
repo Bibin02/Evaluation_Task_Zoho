@@ -1,24 +1,10 @@
-import { callAjax } from "./sdp-cmdb-cv-ajax.js";
+import { callAjax } from "./cmdb-cv-ajax.js";
 import { loadJSON } from "./JSONLoader.js";
 
 $(function (){
 
     $('#fetch-button').on( "click", function(){
         callAjax();
-    });
-
-    
-    const apikey_bar = $('#api-key');
-    const fetch_button = $('#fetch-button');
-    // By default,
-    fetch_button.attr("disabled", "disabled");
-
-    apikey_bar.on("input", function(){
-        if (apikey_bar.val().length > 0) {
-            fetch_button.removeAttr("disabled");
-        } else {
-            fetch_button.attr("disabled", "disabled");
-        }
     });
 
 
@@ -57,10 +43,19 @@ $(function (){
 });
 
 async function loadFields() {
-    const select_tag = document.getElementById("myFilter");
+    let select_tag = document.getElementById("myFilter");
 
     await loadJSON("./assets/CI_fields.json").then((responseJSON)=>{
         responseJSON.fields.forEach(field => {
+            let opt_tag = document.createElement("option");
+            opt_tag.setAttribute("value", field);
+            opt_tag.innerHTML = field;
+            select_tag.appendChild(opt_tag);
+        });
+
+        select_tag = document.getElementById("cmdb-selector");
+
+        responseJSON.cmdbs.forEach(field => {
             let opt_tag = document.createElement("option");
             opt_tag.setAttribute("value", field);
             opt_tag.innerHTML = field;

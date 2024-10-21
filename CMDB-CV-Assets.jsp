@@ -20,20 +20,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Desk Critical and Vulnerable Assets</title>
+    <title>CMDB Critical and Vulnerable Assets</title>
     <!-- Style Sheet -->
-    <link rel="stylesheet" href="./styles/SDP-CMDB.css">
+    <link rel="stylesheet" href="./styles/CMDB.css">
     <!-- JavaScript -->
     <script type="module" src="./scripts/jquery-3.7.1.js"></script>
-    <script type="module" src="./scripts/sdp-cmdb-cv-assets.js"></script>
-    <script type="module" src="./scripts/sdp-cmdb-cv-ajax.js"></script>
-    <script type="module" src="./scripts/spd-cmdb-data-displayer.js"></script>
+    <script type="module" src="./scripts/cmdb-cv-assets.js"></script>
+    <script type="module" src="./scripts/cmdb-cv-ajax.js"></script>
+    <script type="module" src="./scripts/cmdb-data-displayer.js"></script>
     
 </head>
 <body>
     <div class="container">
         <div class="options-container">
+            <select id="cmdb-selector" class="cmdb-selector-class">
+                <!-- Load Data From JSON -->
+            </select>
+
             <input class="input-key" id="api-key" type="password" placeholder="Enter API Key">
+
+            <input class="input-key" id="object-id" type="text" placeholder="Object ID">
+
             <select id="myFilter" class="multiple_select" style="--multitext: 'Select values';" multiple>
                 <!-- Load Data From JSON -->
               </select>

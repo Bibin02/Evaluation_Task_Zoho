@@ -173,4 +173,28 @@ public class DBOperations {
             return null;
         }
     }
+
+    public String getCMDBURL(String cmdb) {
+        try{
+            Connection con = DriverManager.getConnection(URL, USER, PASS);
+            PreparedStatement psmt = con.prepareStatement("select endpoint from cmdb where cmdb_code = ?");
+            psmt.setString(1, cmdb);
+
+            ResultSet rs = psmt.executeQuery();
+
+            rs.next();
+            String endpoint = rs.getString("endpoint");
+
+            psmt.close();
+            con.close();
+
+            return endpoint;
+            
+        }
+        catch(SQLException sx){
+            System.err.println(sx.getMessage());
+            System.err.println(sx.getSQLState());
+            return null;
+        }
+    }
 }

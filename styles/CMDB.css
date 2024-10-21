@@ -87,6 +87,27 @@ table {
     color: white;
 }
 
+/* CMDB Selectors */
+.cmdb-selector-class{
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* object ID */
+#object-id{
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    width: 160px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
 /* Fetch Button */
 #fetch-button{
     cursor: pointer;

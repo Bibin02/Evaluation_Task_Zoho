@@ -1,4 +1,6 @@
 {
+    "cmdbs": ["SDP", "snipe-it", "i-doit", "cmdbuild"],
+    
     "fields": ["CI Name","CI Type","Asset State","Product Name","Site","Asset Tag",
     "Business Impact","Barcode","Warranty Expiry Date","Vendor"]
 }

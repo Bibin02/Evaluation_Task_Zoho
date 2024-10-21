@@ -1,4 +1,4 @@
-<%@page contentType="text/html" import="java.util.*" import="database.*"%>
+<%@page contentType="text/html"%>
 <%
     String sessionAttr = (String)session.getAttribute("login");
 
@@ -27,7 +27,7 @@
     <div class="form-field">
         <h2 style="margin-bottom: 1.5em;">List of Applications</h2>
         <a href="./get-api-key.jsp"><button type="button" class="submit-button"> LLM API Integration </button></a>
-        <a href="./SDP-CMDB-CV-Assets.jsp"><button type="button" class="submit-button"> SDP CMDB App </button></a>
+        <a href="./CMDB-CV-Assets.jsp"><button type="button" class="submit-button"> CMDB API Integration </button></a>
         <a href="./logout"><button type="button" class="submit-button"> Logout </button></a>
     </div>
 </body>
