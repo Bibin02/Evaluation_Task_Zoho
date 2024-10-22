@@ -17,7 +17,7 @@
     sessionAttr = (String)session.getAttribute("apikey");
 
     if(sessionAttr != null){
-        response.sendRedirect("./welcome-user.jsp");
+        response.sendRedirect("./llm-home.jsp");
     }
     // Enter into this Page.
 
