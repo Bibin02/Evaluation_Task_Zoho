@@ -8,7 +8,7 @@
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>Protected Area</web-resource-name>
-            <url-pattern>/OpenAI/*</url-pattern>
+            <url-pattern>/ZohoEval/*</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>admin</role-name>
@@ -41,5 +41,11 @@
         <error-code>404</error-code>
         <location>/not-found</location> <!-- Points to the NotFoundServlet -->
     </error-page>
+
+    <!-- Session Timeout 10 mins -->
+    <session-config>
+        <session-timeout>10</session-timeout>
+    </session-config>
+
 
 </web-app>
